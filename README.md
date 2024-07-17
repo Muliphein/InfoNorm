@@ -1,6 +1,6 @@
-# MI-Recon
+# InfoNorm
 
-This is the official repo for the implementation of **[ECCV 2024] Mutual Information Shaping of Normals for 3D Reconstruction**.
+This is the official repo for the implementation of **[ECCV 2024] InfoNorm: Mutual Information Shaping of Normals for Sparse-View Reconstruction**.
 
 ![MainFigure](./figure/main.png)
 
