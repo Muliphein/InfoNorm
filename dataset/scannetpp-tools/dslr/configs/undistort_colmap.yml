@@ -1,0 +1,14 @@
+# Specify the path to the colmap executable
+colmap_exec: colmap
+# Crop the image border (x-axis) during undistortion since those regions have more distortion
+crop_border: True
+
+# folder where the data is downloaded
+data_root: ../raw/Scannetpp_raw 
+
+scene_ids: [6ee2fc1070, 7b6477cb95, 56a0ec536c, 9460c8889d, a08d9a2476, e0abd740ba, f8062cb7ce]
+
+# The max size for colmap undistortion, defining the size of the undistorted image (could be height or width)
+max_size: 1440
+
+output_dir: ../raw/Scannetpp_pinhole

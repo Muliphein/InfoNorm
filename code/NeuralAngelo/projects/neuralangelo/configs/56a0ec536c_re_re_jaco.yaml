@@ -1,0 +1,31 @@
+# -----------------------------------------------------------------------------
+# Copyright (c) 2023, NVIDIA CORPORATION. All rights reserved.
+#
+# NVIDIA CORPORATION and its licensors retain all intellectual property
+# and proprietary rights in and to this software, related documentation
+# and any modifications thereto. Any use, reproduction, disclosure or
+# distribution of this software and related documentation without an express
+# license agreement from NVIDIA CORPORATION is strictly prohibited.
+# -----------------------------------------------------------------------------
+
+_parent_: projects/neuralangelo/configs/base.yaml
+
+trainer:
+    use_jacobi: True
+    loss_weight:
+        jaco_gra: 0.0
+        jaco_con: 0.1
+        
+model:
+    use_jacobi: True
+    object:
+        sdf:
+            use_jacobi: True
+
+use_jacobi: True
+
+data:
+    type: projects.neuralangelo.data
+    root: ../../dataset/processored/Scannetpp_crop_scaled/56a0ec536c
+    num_workers: 16
+    num_images:  72
