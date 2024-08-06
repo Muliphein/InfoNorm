@@ -2,6 +2,8 @@
 
 This is the official repo for the implementation of **[ECCV 2024] InfoNorm: Mutual Information Shaping of Normals for Sparse-View Reconstruction**.
 
+### [ProjectPage](https://muliphein.github.io/InfoNorm/)
+
 ![MainFigure](./figure/main.png)
 
 ### Environment
@@ -60,5 +62,13 @@ Thanks for the indoor scenes dataset [Scannet++](https://kaldir.vc.in.tum.de/sca
 We will appreciate cite as below if you find this repository is helpful to your project
 
 ```
-Coming soon
+@misc{wang2024infonormmutualinformationshaping,
+    title={InfoNorm: Mutual Information Shaping of Normals for Sparse-View Reconstruction}, 
+    author={Xulong Wang and Siyan Dong and Youyi Zheng and Yanchao Yang},
+    year={2024},
+    eprint={2407.12661},
+    archivePrefix={arXiv},
+    primaryClass={cs.CV},
+    url={https://arxiv.org/abs/2407.12661}, 
+}
 ```
